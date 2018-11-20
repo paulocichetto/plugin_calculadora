@@ -6,19 +6,21 @@
 .container{
     position: relative;
     margin: 20px auto; /*o valor para cima e automatico para o resto*/ 
-    width: 80%;
-    height: auto;
+    width: 70%;
+    height: 390px;
     padding: 10px;
-    background: #fff;
+    background: black;
     border: 10% solid white;
-    box-shadow: 4px 4px 4px black; 
+    box-shadow: 4px 4px 4px grey; 
+    border-radius: 3%;
 }
 .Resultado{
     position: relative;
-    width: 96,2%;
-    height: auto;
+    width: 70,2%;
+    height: 150px;
     padding: 6px;
-    background-color:#1C86EE;
+    background-color:black;
+    margin-top: 10px;
 }
 
 .botoes{
@@ -26,32 +28,36 @@
     width: 93%;
     height: auto;
     padding: 10px;
-    background: #dedede;
+    background: black;
+    
 }
 .campo{
     width: 100%;
-    height: 90px;
+    height: 148px;
     border: none;
     opacity: 0.5;
-    background-color: #1E90ff;    color: white;
-    font-size: 230%;
+    background-color: black;
+    color: black;
+    font-size: 220%;
     text-align: right;
 }   
 
 .btn{
-    margin-top: 1px;
+    margin-top: 10px;
     width: 18%;
     height: 10%;
  /*   padding: 3%;*/
-    background-color: rgb(30,144, 255, 0.5);
-    color: white;
-    font-size: 150%;
+    background-color: #ebebeb;
+    color: IndianRed;
+    font-size: 145%;
+    border-radius: 5%;
     
     /*border: 5px solid #1c86ee;*/
 }
 .btn:hover{
     cursor: pointer;
-    background-color:#1C86fe; 
+    background-color: IndianRed;
+    color: #ebebeb;
 }
 /*.overlay{
     display: none;
@@ -61,7 +67,8 @@
 
 .igual{
     width: 15.8%;
-    height: 22.3%;
+    height: 18.6%;
+    right: 26px;
     position:absolute;
 }
 .zero{
